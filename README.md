@@ -35,3 +35,14 @@ This will output the secret to you.
 
 5) Take the output file generated and check for the secret using a hex viewer.
 	For Mac, iHex can be used
+	
+	
+# find_secret.c Usage
+
+1) run example program and get its pid
+
+2) compile find_secret.c and run
+gcc find_secret.c -o find_secret
+./find_secret [pid]
+
+3) check the secret
